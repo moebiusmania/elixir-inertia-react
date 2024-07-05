@@ -51,5 +51,5 @@ defmodule TodoAppWeb.Endpoint do
   plug Plug.Session, @session_options
   plug TodoAppWeb.Router
 
-  plug InertiaPhoenix
+  plug Inertia.Plug
 end

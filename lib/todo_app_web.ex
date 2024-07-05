@@ -44,6 +44,7 @@ defmodule TodoAppWeb do
 
       import Plug.Conn
       import TodoAppWeb.Gettext
+      import Inertia.Controller
 
       unquote(verified_routes())
     end

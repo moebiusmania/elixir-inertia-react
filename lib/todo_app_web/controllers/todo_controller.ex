@@ -1,6 +1,6 @@
 defmodule TodoAppWeb.TodoController do
   use TodoAppWeb, :controller
-  alias InertiaPhoenix.Controller
+  alias Inertia.Controller
   alias TodoApp.TodoList
   alias TodoApp.TodoList.Todo
 
